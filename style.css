@@ -1,0 +1,10 @@
+.middle {
+    vertical-align: bottom; 
+    color: rgb(37, 53, 202);
+    padding: 20%;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
