@@ -5,6 +5,20 @@
 }
 .filter{
     width: 100%;
-    height: 100%;
     background-color: blue;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .mapsas { grid-area: 1 / 1 / 2 / 5; }
+    .filter { grid-area: 1 / 5 / 2 / 6; }
+
+.filter-wrapper{
+    background-color: brown;
+    padding: 20px;
 }
