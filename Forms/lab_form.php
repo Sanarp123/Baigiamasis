@@ -35,7 +35,13 @@
                     </div>
                     <div class="form-group">
                         <label for="Cl">Namo numeris</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="NamNum" name="NamNum">
+                    </div>
+
+                            <!-- GREZINIAMS -->
+                    <div class="form-group">
+                        <label for="Gręžinio numeris">Gręžinio numeris</label>
+                        <input type="number" class="form-control" id="GrezNum" name="GrezNum">
                     </div>
 
                     <h4>Bendra cheminė sudėtis</h4>
@@ -118,12 +124,14 @@
                         <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
         </div>
+                
+        
+        <!-- GREZINIAMS -->
 
         <div class="d-flex flex-column d-none grezinys"> 
             <br>
         <h5>Kitos analitės</h5>
 
-                <!-- GREZINIAMS -->
                 <div class="form-group">
                         <label for="Fe">Geležis</label>
                         <input type="number" class="form-control" id="Chloridas" name="Chloridas">
