@@ -11,18 +11,19 @@
 </head>
 <body>
     
-<div class="container-lg">
+<div class="container">
     <h1>Tyrimo rezultatai</h1>
-    <form method="post" action="" enctype="multipart/form-data">
+    <form method="post" action="" enctype="multipart/form-data">    
 
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sulinys" id="Sulinys" checked>
+                        <label class="Objektas2" for="Objekto tipas">Šulinys/Šaltinis</label>
+                    </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="Grezinys" id="Grezinys">
                         <label class="Objektas1" for="Objekto tipas">Gręžinys</label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Grezinys" id="Grezinys">
-                        <label class="Objektas2" for="Objekto tipas">Šulinys/Šaltinis</label>
-                    </div>
+                
             <h5>Adresas</h5>
                     <div class="form-group">
                         <label for="Cl">Miestas</label>
@@ -33,100 +34,142 @@
                         <input type="text" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
-                        <label for="Cl">Namo numeris - butas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Cl">Namo numeris</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
-                    
-        <div class="d-flex flex-column">        
-             <h4>Bendra cheminė sudėtis</h4>
+
+                    <h4>Bendra cheminė sudėtis</h4>
+
+    <div class="d-flex flex-row justify-content-around">        
+        <div class="d-flex flex-column">    
+
              <h5>Anijonai</h5>
                     <div class="form-group">
                         <label for="Cl">Chloridas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Sulfatas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Hidrokarbonatai</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Nitritai</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Nitratai</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
         </div>
-        <div class="d-flex flex-column">            
+
+        <div class="d-flex flex-column ">            
             <h5>Katijonai</h5>
                     <div class="form-group">
                         <label for="Cl">Natris</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Amonis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Kalis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Magnis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Kalcis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
         </div>
-            <h5>Kitos analitės</h5>
+    </div>
+
+
+
+    <div class="d-flex flex-row justify-content-around">  
+              
+        <div class="d-flex flex-column"> 
+            <br>
+        <h5>Kitos analitės</h5>
+
                     <div class="form-group">
                         <label for="Cl">pH</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Permanganato indeksas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>   <div class="form-group">
                         <label for="Cl">Savitasis elektros laidis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>   <div class="form-group">
                         <label for="Cl">Bendrasis kietumas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Sausa liekana</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
+        </div>
+
+        <div class="d-flex flex-column d-none grezinys"> 
+            <br>
+        <h5>Kitos analitės</h5>
+
                 <!-- GREZINIAMS -->
                 <div class="form-group">
-                        <label for="Cl">Geležis</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Fe">Geležis</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
-                        <label for="Cl">Arsenas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Ar">Arsenas</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
-                        <label for="Cl">Manganas</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Mn">Manganas</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
                     <div class="form-group">
-                        <label for="Cl">Fluoridai</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Fl">Fluoridai</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>    <div class="form-group">
-                        <label for="Cl">Boras</label>
-                        <input type="text" class="form-control" id="Chloridas" name="Chloridas">
+                        <label for="Br">Boras</label>
+                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
                     </div>
 
-                    <button type="submit" class="btn btn-primary" name="submitResults">Pateikti</button>
-    </form>
+        </div>
     </div>
+<br>
+<div class="d-flex flex-row justify-content-end">
+                    <button type="submit" class="btn btn-primary" name="submitResults">Pateikti</button>
+                    </div>
+                    
+
+    </form>
+    <br>
+    </div>
+
+<script type="text/javascript">
+$(':radio[id=Grezinys]').change(function() {
+   $("#yes").removeClass("none");
+   $("#no").addClass("none");
+
+});
+$(':radio[id=radio2]').change(function() {
+   $("#no").removeClass("none");
+   $("#yes").addClass("none");
+
+});
+</script>
+
+
 </body>
 </html>
 
