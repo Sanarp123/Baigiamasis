@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .middle {
     vertical-align: bottom; 
     color: rgb(224, 226, 245);
