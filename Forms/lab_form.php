@@ -58,19 +58,19 @@
                     </div>
                     <div class="form-group">
                         <label for="Cl">Sulfatas</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Sulfatas" name="Sulfatas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Hidrokarbonatai</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Hidrokarbonatai" name="Hidrokarbonatai">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Nitritai</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Nitritai" name="Nitritai">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Nitratai</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Nitratai" name="Nitratai">
                     </div>
                 </div>
 
@@ -78,23 +78,23 @@
                     <h5>Katijonai</h5>
                     <div class="form-group">
                         <label for="Cl">Natris</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Natris" name="Natris">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Amonis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Amonis" name="Amonis">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Kalis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Kalis" name="Kalis">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Magnis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Magnis" name="Magnis">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Kalcis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Kalcis" name="Kalcis">
                     </div>
                 </div>
             </div>
@@ -109,23 +109,23 @@
 
                     <div class="form-group">
                         <label for="Cl">pH</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="pH" name="pH">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Permanganato indeksas</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Permanganatas" name="Permanganatas">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Savitasis elektros laidis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="EC" name="EC">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Bendrasis kietumas</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="BK" name="BK">
                     </div>
                     <div class="form-group">
                         <label for="Cl">Sausa liekana</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="SL" name="SL">
                     </div>
                 </div>
 
@@ -138,23 +138,23 @@
 
                     <div class="form-group">
                         <label for="Fe">Geležis</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="gelezis" name="gelezis">
                     </div>
                     <div class="form-group">
                         <label for="Ar">Arsenas</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Arsenas" name="Arsenas">
                     </div>
                     <div class="form-group">
                         <label for="Mn">Manganas</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Manganas" name="Manganas">
                     </div>
                     <div class="form-group">
                         <label for="Fl">Fluoridai</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Fluoridai" name="Fluoridai">
                     </div>
                     <div class="form-group">
                         <label for="Br">Boras</label>
-                        <input type="number" class="form-control" id="Chloridas" name="Chloridas">
+                        <input type="number" class="form-control" id="Boras" name="Boras">
                     </div>
 
                 </div>
@@ -168,7 +168,6 @@
         </form>
         <br>
     </div>
-
 
     <script src="form_script.js"></script>
 
