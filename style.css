@@ -30,3 +30,7 @@
     background-color: brown;
     padding: 20px;
 }
+body {
+    background-image: url('images/ginuciu_vandens_malunas.jpg');
+    width: auto;
+  }
