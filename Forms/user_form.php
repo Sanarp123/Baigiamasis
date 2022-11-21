@@ -10,6 +10,9 @@
     <title>Naudotojo forma</title>
 </head>
 
+
+
+
 <body>
 
     <div class="container">
@@ -31,6 +34,10 @@
                 <label for="longitude"></label>
                 <input type="number" value="" class="form-control" id="longitude">
             </div>
+            <div class="form-group visible">
+                <label for="time"></label>
+                <input type="number" value="" class="form-control" id="laikas">
+            </div>
 
             <br>
             <div class="d-flex flex-row justify-content-end">
@@ -39,7 +46,15 @@
         </form>
     </div>
 
+
 <script>
+//Laiko paėmimas
+const d = new Date();
+document.getElementById("laikas").value = d.getTime();
+
+
+//Koordinaciu nustatymas
+
 var x = document.getElementById("geolocation");
 function getLocation() {
   if (navigator.geolocation) {
@@ -68,6 +83,7 @@ function showError(error) {
       break;
   }
 }
+
 getLocation();
 </script>
 
